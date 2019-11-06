@@ -16,12 +16,12 @@ let name = "Sunaina"
     * `My favorite quote is "The grass is always greener on the other side."`
  */
 let favoriteQuote = "My favorite quote is \" Live life to the fullest \""
-
+print(favoriteQuote)
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
  */
 let emptyString = ""
-if emptyString.isEmpty{
+if emptyString.isEmpty {
     print("There's nothing here")
 } else {
     print("It's not as empty as I thought")
